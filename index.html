@@ -1,55 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DataEncompass - Cybersecurity & Compliance</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
-    header, footer { background: #0a3d62; color: white; text-align: center; padding: 1rem; }
-    section { padding: 2rem; max-width: 900px; margin: auto; }
-    h1, h2 { color: #0a3d62; }
-    .btn {
-      display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem;
-      background: #0a3d62; color: white; text-decoration: none; border-radius: 4px;
-    }
-    .btn:hover { background: #145a8d; }
-  </style>
+  <title>DataEncompass</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>DataEncompass</h1>
-    <p>Cybersecurity & Compliance Solutions</p>
+    <div class="container header-content">
+      <img src="logo.png" alt="DataEncompass Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="hero">
-    <h2>Welcome to DataEncompass</h2>
-    <p>We help businesses strengthen their cybersecurity posture and stay compliant with regulations through practical assessments, gap analysis, and tailored solutions.</p>
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to DataEncompass</h1>
+      <p>We help businesses strengthen their cybersecurity posture and stay compliant with regulations through practical assessments, gap analysis, and tailored solutions.</p>
+    </div>
   </section>
 
-  <section id="about">
-    <h2>About DataEncompass</h2>
-    <p>DataEncompass provides small and mid-sized businesses with accessible, professional-grade cybersecurity readiness and compliance assessment services.</p>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About DataEncompass</h2>
+      <p>DataEncompass provides small and mid-sized businesses with accessible, professional-grade cybersecurity readiness and compliance assessment services.</p>
+    </div>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Cybersecurity Readiness Audit</li>
-      <li>Compliance Gap Assessments</li>
-      <li>Custom Advisory & Remediation Roadmaps</li>
-    </ul>
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Cybersecurity Readiness Audit</li>
+        <li>Compliance Gap Assessments</li>
+        <li>Custom Advisory & Remediation Roadmaps</li>
+      </ul>
+    </div>
   </section>
 
   <section id="resources" class="resources">
-    <h2>Resources</h2>
-    <p>Access our core cybersecurity and compliance policies:</p>
-    <a href="docs/Policies.pdf" target="_blank" class="btn">Download Policies (PDF)</a>
+    <div class="container">
+      <h2>Resources</h2>
+      <p>Access our core cybersecurity and compliance policies:</p>
+      <a href="policies.pdf" target="_blank" class="btn">Download Policies (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:info@dataencompass.com">info@dataencompass.com</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 DataEncompass | Cybersecurity & Compliance</p>
+    <div class="container">
+      <p>&copy; 2025 DataEncompass. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
